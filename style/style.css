@@ -1,0 +1,190 @@
+.hero-bg{
+    background-image: url("/img/hero-bg.jpg");
+    display: block;
+    margin: auto;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 115px;
+    height: 850px;
+}
+
+.logo-banner{
+    width: 100px;
+    padding-bottom: 3rem;
+}
+
+h1{
+    color: #F8D800;
+}
+
+.btn-header{
+    border-radius: 10px;
+    background: #F8D800;
+    padding: 5px 22px;
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*Seccion por que invertir*/
+.img-bag{
+    width: 500px;
+}
+.bag{
+    margin: 0% !important;
+    padding-left: 0% !important;
+}
+.bg-yellow{
+    background-color: #F8D800;
+    padding: 4rem 0;
+
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 22px;
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.invertir{
+    text-align: start;   
+}
+.icon-invertir{
+    width: 30px;
+}
+
+.icon-position{
+    margin: auto;
+    padding: 2rem;
+    width: 30px;
+}
+
+.card-invertir{
+    background-color: #F8D800 !important;
+    border: #F8D800 !important;
+}
+
+
+.diferencia{
+    background-image: url("/img/fondo-bn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 4rem;
+}
+
+.font-two{
+    font-family: 'Intro Rust';
+    color: #F8D800;
+}
+
+.product{
+    background-color: #0D0D0D;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.product img{
+    width: 50%;
+}
+
+/*-----Inclutye -------*/
+
+.incluye{
+    background-color: #0D0D0D;
+    color: white;
+    padding: 3rem 0;
+}
+
+.img-donde{
+    width: 200px;
+}
+.donde{
+    color: #F8D800;
+    font-size: 26px;
+    width: 700;
+}
+.abrir{
+    color: black;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+/*-----nosotros----*/
+
+.nosotros{
+    background-color: #F8D800;
+    padding: 55px;
+}
+
+.nosotros img{
+    width: 100px;
+    margin-top: 33px;
+}
+
+/*----formulario----*/
+.bg-form{
+    background-image: url("/img/bg-form.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*-padding: 4rem;*/
+}
+.text-w{
+    color: white;
+    font-size: 26px;
+    width: 700;
+}
+.formulario{
+    padding: 32px;
+    background-color: #0D0D0D;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer{
+    background-color: #0D0D0D;
+    padding: 0px !important;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: 0%;
+}
+
+.text-footer{
+    text-decoration: none;
+    color: #F8D800;
+}
+
+
+/*-----MQ------*/
+
+@media (max-width: 576px){
+    .hero-bg{
+        height: 660px;
+        padding: 60px;
+    }
+}
+
+@media (max-width: 768px){
+    .hero-bg{
+        height: 450px;
+        padding: 60px;
+    }
+}
+
+@media (max-width: 1200px){
+    .hero-bg{
+        height: 540px;
+        padding: 60px;
+    }
+}
