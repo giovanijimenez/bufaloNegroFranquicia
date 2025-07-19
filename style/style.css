@@ -15,9 +15,20 @@
     padding-bottom: 3rem;
 }
 
+.btn-header a{
+    text-decoration: none !important;
+    color: #0D0D0D;
+}
+
+.btn-black a{
+    text-decoration: none !important;
+    color: white;
+}
+
 h1{
     color: #F8D800;
 }
+
 
 .btn-header{
     border-radius: 10px;
@@ -116,6 +127,7 @@ h1{
     font-weight: 600;
 }
 
+
 /*-----nosotros----*/
 
 .nosotros{
@@ -172,6 +184,10 @@ footer p{
     .hero-bg{
         height: 660px;
         padding: 60px;
+    }
+
+    .abrir{
+        font-size: 40px;
     }
 }
 

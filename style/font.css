@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'IntroRustG';
+  src: url('/font/IntroRustG-Base2Line.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-rust {
+  font-family: 'IntroRustG', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat';
+}
