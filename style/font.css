@@ -9,6 +9,19 @@
   font-family: 'IntroRustG', sans-serif;
 }
 
+@font-face {
+  font-family: 'BurbankBig';
+  src: url('/font/BurbankBigCondensed-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-burbank {
+  font-family: 'BurbankBig', sans-serif;
+}
+
+
+
 p{
     font-family: 'Montserrat';
 }
